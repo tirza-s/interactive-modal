@@ -27,6 +27,7 @@ p {
 #close-modal:hover,
 #open-modal:focus #close-modal:focus {
   background: #dddddd;
+  border: 2px solid #cc99f9;
   color: #ac66cc;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
@@ -36,7 +37,7 @@ p {
   border: 30px solid #cc99f9;
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(52, 51, 51, 0.3);
-  background-color: whitesmoke;
+  background-color: rgba(242, 242, 242, 0.802);
   max-width: 680px;
   margin: 0 auto;
   margin-top: 4em;
@@ -48,6 +49,7 @@ p {
 }
 
 #overlay {
+  background: rgba(0, 0, 0, 0.3);
   display: none;
   width: 100%;
   height: 100%;
